@@ -1,0 +1,9 @@
+formatoContraseñaRegex: "^[A-Za-z0-9]+$"
+email-pattern: "^[A-Za-z0-9]+@[A-Za-z0-9]+\\.[A-Za-z]{2,}$"
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
